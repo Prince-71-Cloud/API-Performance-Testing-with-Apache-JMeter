@@ -29,6 +29,7 @@ jobs:
         with:
           # JMeter test plan to execute
           test-plan-path: './Restful-booker.jmx'
+          duration: 300
           args: '-Jjmeter.reportgenerator.overall_granularity=100'
 
       - name: Upload Results
