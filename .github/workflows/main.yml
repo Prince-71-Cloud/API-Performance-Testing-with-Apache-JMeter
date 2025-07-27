@@ -36,10 +36,3 @@ jobs:
         with:
           name: jmeter-results
           path: Restful_Booker.jtl
-
-      # Upload HTML dashboard
-      - name: Upload HTML Dashboard
-        uses: actions/upload-artifact@v4
-        with:
-          name: jmeter-dashboard
-          path: dashboard/
