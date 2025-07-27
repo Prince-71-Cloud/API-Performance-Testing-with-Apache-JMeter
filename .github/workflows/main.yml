@@ -30,8 +30,7 @@ jobs:
   with:
     # JMeter test plan to execute
     test-plan-path:'./Restful-booker.jmx'
-  
-      - name: Upload Results
+       - name: Upload Results
   uses: actions/upload-artifact@v3
   with:
     name: jmeter-results
